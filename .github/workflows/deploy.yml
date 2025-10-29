@@ -19,7 +19,7 @@ jobs:
     environment:
       name: github-pages
       url: https://Vpragadeesh.github.io/portfolio/
-    runs-on: ubuntu-latest
+    runs-on: alpine-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
