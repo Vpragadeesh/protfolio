@@ -2,7 +2,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["main"] # Trigger deployment when pushing to the main branch
+    branches: ["master"]
   workflow_dispatch: # Allow manual triggers from the Actions tab
 
 permissions:
